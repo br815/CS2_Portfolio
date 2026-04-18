@@ -13,7 +13,9 @@ The purpose of this repository is archival and educational:
 - to reflect on design decisions and showcase my improved understanding of the language
 
 ## Highlights
-- ...
+- Recursive algorithms
+- Implementation of fundamental data structures like linked lists, stacks, and queues
+- Implementation and use of advanced data structures like binary trees, hash tables, and graphs
 
 ## Instructions to Install MinGW
 Compilers for C and C++ are necessary to run these assignments (eg. the gcc and g++ compilers in MinGW, a Microsoft Windows port of the GNU Compiler Collection).
