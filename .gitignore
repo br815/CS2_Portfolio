@@ -1,3 +1,5 @@
+# Java gitignore template: tells Git not to track or upload these reproducible, machine-specific file extensions that are not part of source code.
+
 # Compiled class file
 *.class
 
