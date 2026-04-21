@@ -53,11 +53,9 @@ To install Java JDK on Windows 11 or less, follow [these instructions](https://g
     ```
     <!-- CODE END -->
 
-## Homework Instructions & READMEs
+## Homework Instructions & Readme Files
 * ...
-
-## READMEs
-* ...
+    * ...
 
 ## Notes
 As a learning exercise, some of my code explores alternative designs that go beyond what was required for this course.
