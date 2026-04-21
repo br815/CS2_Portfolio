@@ -19,7 +19,7 @@ The purpose of this repository is archival and educational:
 ## Instructions to Install Java
 The Java Development Kit (JDK) is necessary to run these assignments (since it contains the `javac` bytecode compiler and the Java Runtime Environment (JRE), which is used to run Java applications and which contains the Java Virtual Machine (JVM), which is used to execute Java bytecode).
 
-To install Java JDK on Windows 11 or less, follow [these instructions](https://github.com/br815/CS1_Portfolio/blob/main/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (jump to Pages 1-2 of the linked PDF):
+To install Java JDK on Windows 11 or less, follow [these instructions](https://github.com/br815/CS1_Portfolio/blob/main/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (refer to Pages 1-2 of the linked PDF):
 1. Download the x64 installer (`.exe` extention) for the latest version of the Standard Java SE Development Kit from [this Oracle link](https://www.oracle.com/java/technologies/downloads/).
 2. Run the installer. Don’t make any changes with the installer.
 3. Add the Java JDK the `Path` Environment Variable. [This YouTube video](https://www.youtube.com/watch?v=uadGsNA6h5Q) has the steps to follow:
@@ -52,6 +52,7 @@ To install Java JDK on Windows 11 or less, follow [these instructions](https://g
     Java HotSpot(TM) 64-Bit Server VM (build 12+23, mixed mode, sharing)
     ```
     <!-- CODE END -->
+After installing Java and adding it to `Path`, make sure to restart your IDE to avoid compilation errors.
 
 ## Homework Instructions & Readme Files
 * ...
