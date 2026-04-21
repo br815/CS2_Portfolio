@@ -2,7 +2,6 @@
 
 # CS2 Portfolio | Bushra Rahman
 ## CS 2336 (Computer Science II) | UTD Spring 2020
-
 GitHub Pages link: https://br815.github.io/CS2_Portfolio/
 
 This repository contains university programming assignments from my [Computer Science II course](/CS2336).
