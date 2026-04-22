@@ -54,6 +54,42 @@ To install Java JDK on Windows 11 or less, follow [these instructions](https://g
     <!-- CODE END -->
 After installing Java and adding it to `Path`, make sure to restart your IDE to avoid compilation errors.
 
+## Java Compilation & Execution Overview
+(Using [HW0](/CS2336/HW0/) as an example. HW0 contains a [src](/CS2336/HW0/src/) folder,\
+which contains a package called [Tickets](/CS2336/HW0/src/Tickets/),\
+which contains 2 source files [Main.java](/CS2336/HW0/src/Tickets/Main.java) and [Auditorium.java](/CS2336/HW0/src/Tickets/Auditorium.java).)
+
+Open terminal in `CS2_Portfolio` and run:
+<!-- CODE START -->
+```
+cd CS2336/HW0                           # cd to project root
+mkdir build                             # make a build folder if it doesn't exist
+javac -d build src/Tickets/*.java       # compile CLASS files into the build folder
+java -cp build Tickets.Main             # provide the build folder as the classpath to Main
+```
+<!-- CODE END -->
+Java compilation needs to occur in the directory that contains the `.java` source files. However, Java execution needs to occur at the project root (because any input/output files are stored at the project root level).
+
+In order to achieve both from the project root, this compilation instruction goes through `src/Tickets/` to compile all `.java` source files in the [Tickets](/CS2336/HW0/src/Tickets/) package inside [src](/CS2336/HW0/src/).  Alternatively, each source file can be compiled individually through their paths:
+<!-- CODE START -->
+```
+javac -d build src/Tickets/Main.java src/Tickets/Auditorium.java
+```
+<!-- CODE END -->
+By default, Java produces `.class` files directly in the package (DOES IT? OR IS IT THE WORKING DIR?); however, the provided compilation instruction uses the `-d` flag to produce `.class` files in a [build](/CS2336/HW0/build/) folder for clearer file organization.
+
+Then, execution can occur from the project root as long as the flag `-cp` or `-classpath` is specified. This flag specifies the path to `[packageName].Main`, which for this project is through `build/`. (This command can also be run using `[packageName]/Main`, but typically in Java, `.` is for runtime commands while `/` is used for filepaths during compilation.)
+
+Similar compilation & execution behavior can be achieved through alternative commands, like:
+<!-- CODE START -->
+```
+cd CS2336/HW0/src/Tickets
+javac *.java                        # or, javac Main.java Auditorium.java (note that here, .class files are produced directly in src)
+cd ../..                            # go back to the project root
+java -classpath src Tickets.Main
+```
+<!-- CODE END -->
+
 ## Homework Instructions & Readme Files
 * ...
     * ...
