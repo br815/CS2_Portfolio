@@ -2,7 +2,7 @@
 
 # CS2 Portfolio | Bushra Rahman
 ## CS 2336 (Computer Science II) | UTD Spring 2020
-GitHub Pages link: https://br815.github.io/CS2_Portfolio/
+GitHub Pages link: https://br815.github.io/CS2-portfolio/
 
 This repository contains university programming assignments from my [Computer Science II course](/CS2336).
 
@@ -19,7 +19,7 @@ The purpose of this repository is archival and educational:
 ## Instructions to Install Java
 The Java Development Kit (JDK) is necessary to run these assignments (since it contains the `javac` bytecode compiler and the Java Runtime Environment (JRE), which is used to run Java applications and which contains the Java Virtual Machine (JVM), which is used to execute Java bytecode).
 
-To install Java JDK on Windows 11 or less, follow [these instructions](https://github.com/br815/CS1_Portfolio/blob/main/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (refer to Pages 1-2 of the linked PDF):
+To install Java JDK on Windows 11 or less, follow [these instructions](https://github.com/br815/CS1-portfolio/blob/main/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (refer to Pages 1-2 of the linked PDF):
 1. Download the x64 installer (`.exe` extention) for the latest version of the Standard Java SE Development Kit from [this Oracle link](https://www.oracle.com/java/technologies/downloads/).
 2. Run the installer. Don’t make any changes with the installer.
 3. Add the Java JDK the `Path` Environment Variable. [This YouTube video](https://www.youtube.com/watch?v=uadGsNA6h5Q) has the steps to follow:
@@ -52,14 +52,14 @@ To install Java JDK on Windows 11 or less, follow [these instructions](https://g
     Java HotSpot(TM) 64-Bit Server VM (build 12+23, mixed mode, sharing)
     ```
     <!-- CODE END -->
-After installing Java and adding it to `Path`, make sure to restart your IDE to avoid compilation errors.
+4. After installing Java and adding it to `Path`, make sure to restart your IDE to avoid compilation errors.
 
 ## Java Compilation & Execution Overview
 (Using [HW0](/CS2336/HW0/) as an example. HW0 contains a [src](/CS2336/HW0/src/) folder,\
 which contains a package called [Tickets](/CS2336/HW0/src/Tickets/),\
 which contains 2 source files [Main.java](/CS2336/HW0/src/Tickets/Main.java) and [Auditorium.java](/CS2336/HW0/src/Tickets/Auditorium.java).)
 
-Open terminal in `CS2_Portfolio` and run:
+Open terminal in `CS2-portfolio` and run:
 <!-- CODE START -->
 ```
 cd CS2336/HW0                           # cd to project root
@@ -68,7 +68,7 @@ javac -d build src/Tickets/*.java       # compile CLASS files into the build fol
 java -cp build Tickets.Main             # provide the build folder as the classpath to Main
 ```
 <!-- CODE END -->
-Java compilation & execution can occur from anywhere through the use of relative paths & classpaths, as long as the compilation instruction specifies the relative path to the `.java` source files & the execution instruction specifies the classpath to the `.class` bytecode files. However, execution *should* occur from the project root (because that is the conventional location from which your program should retrieve any IO files).
+Java compilation & execution can occur from anywhere through the use of relative paths & classpaths, as long as the compilation instruction specifies the relative path to the `.java` source files & the execution instruction specifies the classpath to the `.class` bytecode files. However, execution *should* occur from the project root (because that is the conventional location from which your program should retrieve any IO files). (4-22-26: DOUBLE CHECK THIS INFO!!!!! AND UPDATE OTHER PORTFOLIO READMES ACCORDINGLY)
 
 In order to achieve both compilation & execution from the project root, this compilation instruction goes through `src/Tickets/` to compile all `.java` source files in the [Tickets](/CS2336/HW0/src/Tickets/) package inside [src](/CS2336/HW0/src/).  Alternatively, each source file can be compiled individually through their paths:
 <!-- CODE START -->

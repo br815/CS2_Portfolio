@@ -5,7 +5,7 @@
 This is the repository for [CS 2336/HW0](/CS2336/HW0).
 
 ## Execution Instructions
-Open terminal in `CS2_Portfolio` and run:
+Open terminal in `CS2-portfolio` and run:
 <!-- CODE START -->
 ```
 cd CS2336/HW0
@@ -16,7 +16,7 @@ java -cp build Tickets.Main
 <!-- CODE END -->
 
 ## Homework Instructions
-* [HW 0: Introduction to Object-Oriented Programming](/CS2336/HW0/HW0_IntroToOOP.pdf)
+* [HW 0: Introduction to Object-Oriented Programming](/CS2336/HW0/HW0_Intro_To_OOP.pdf)
 
 ## `src` Folder
 ### Source Files in the `Tickets` Package
