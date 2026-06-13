@@ -1,5 +1,5 @@
 /*	Author:				Bushra Rahman
-	Course:				CS 2336 (Spring 2920)
+	Course:				CS 2336 (Spring 2020)
    	Date:				1/30/2020
 	Auditorium.java:	This source file defines the Auditorium class, which includes 18 function definitions. */
 
