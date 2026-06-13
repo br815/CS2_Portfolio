@@ -1,5 +1,5 @@
 /*	Author:				Bushra Rahman
-	Course:				CS 2336 (Spring 2920)
+	Course:				CS 2336 (Spring 2020)
    	Date:				1/30/2020
 	Main.java:			This source file is the main driver of the program. */
 
